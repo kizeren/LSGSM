@@ -103,10 +103,10 @@ mkdir -p ~/LSGSM/scripts
 #Included both possiblities of using bash.
 echo "~/LSGSM/scripts/lsgsm-menu.sh" > ~/.bash_profile
 echo "~/LSGSM/scripts/lsgsm-menu.sh" > ~/.bashrc
-chmod +x ~/LSGSM/scripts/lsgsm-menu.sh
 cat lsgsm-menu.sh > ~/LSGSM/scripts/lsgsm-menu.sh
 dialog --clear --backtitle "Linux Shell Game Server Manager" \
 --msgbox "Linux Shall Game Server Manager set as default ssh screen when logging in.\n You can now safely remove lsgsm-menu.sh, its new location is ~/LSGSM/scripts folder." 0 0
+chmod +x ~/LSGSM/scripts/lsgsm-menu.sh
 
 main_menu
 
