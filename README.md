@@ -24,7 +24,11 @@ At this time the MineOS feature is broken with plans to finish soon.
 Single server install has been tested and working with plans on setting up and configuring.
 As of now the server starts with 1GB ram and is 100% pure vanilla.
 
+There is a chance this script will fail!  If the script hangs at a empty prompt, please do
 
+`sudo apt-get install dialog`
+
+which is a needed application from ubuntu repository.
 
 ## TODO
 Finish MineOS installation.
